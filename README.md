@@ -17,3 +17,4 @@ Building from scratch an api backend boilerplate for future projects.
 
 ### TODO
 - eslint
+- testing
