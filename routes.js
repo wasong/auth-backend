@@ -1,7 +1,7 @@
 import passport from 'passport'
 
-import { signup, signin } from './controllers/auth'
-import passportService from './services/passport'
+import { signup, signin } from './src/controllers/auth'
+import passportService from './src/services/passport'
 
 const requireAuth = passport.authenticate('jwt', { session: false })
 const requireSignin = passport.authenticate('local', { session: false })

@@ -3,7 +3,7 @@ import { Strategy, ExtractJwt } from 'passport-jwt'
 import LocalStrategy from 'passport-local'
 // a strategy in passport is a method of authenticating a user
 
-import config from '../config.js'
+import config from '../../config.js'
 import User from '../models/user'
 
 // local strategy for authentication
